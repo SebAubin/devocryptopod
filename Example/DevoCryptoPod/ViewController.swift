@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import DevoCryptoPod
 
 class ViewController: UIViewController {
 

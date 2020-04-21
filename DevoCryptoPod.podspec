@@ -21,16 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/sebastien.aubin91@gmail.com/DevoCryptoPod'
+  s.homepage         = 'https://github.com/SebAubin/DevoCryptoPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sebastien.aubin91@gmail.com' => 'spicheaubin@devolutions.net' }
-  s.source           = { :git => 'https://github.com/sebastien.aubin91@gmail.com/DevoCryptoPod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/SebAubin/DevoCryptoPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'DevoCryptoPod/Classes/**/*'
+  s.source_files = 'DevoCryptoPod/Classes/**/*', 'DevoCryptoPod/Headers/*.h'
+  s.vendored_libraries = 'Slauth/Rust/*.a'
   
   # s.resource_bundles = {
   #   'DevoCryptoPod' => ['DevoCryptoPod/Assets/*.png']
