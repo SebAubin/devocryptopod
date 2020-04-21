@@ -1,0 +1,22 @@
+{
+  "name": "DevoCryptoPod",
+  "version": "0.1.0",
+  "summary": "A short description of DevoCryptoPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sebastien.aubin91@gmail.com/DevoCryptoPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sebastien.aubin91@gmail.com": "spicheaubin@devolutions.net"
+  },
+  "source": {
+    "git": "https://github.com/sebastien.aubin91@gmail.com/DevoCryptoPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DevoCryptoPod/Classes/**/*"
+}
